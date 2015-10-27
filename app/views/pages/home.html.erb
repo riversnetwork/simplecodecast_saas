@@ -1,37 +1,46 @@
-<div class="jumbotron text-center">
-    <h1>Welcome to Rivers Network</h1>
-    <h3>Building a Subscription Based Startup Using Ruby on Rails</h3>
-</div>
-<div class="alert alert-success text-center">
-  <h3>This is a responsive build using Ruby on Rails, and Bootstrap with Sass</h3>
+<div class="alert alert-success">
+  <div class="row">
+    <div class="col-sm-9">
+      <div class="jumbotron text-center">
+        <h1>Rivers Network</h1>
+        <h3>We're Building a Subscription Based Startup Using Ruby on Rails</h3>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="text-center">
+        <div><%= image_tag "new-logo.png", class:"small-logo" %></div>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div class="alert alert-info">
+<div class="alert alert-success text-center">
+  <h4>This is a responsive web app built using Ruby on Rails, and Bootstrap with Sass.</h4>
   <div class="progress">
     <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100" style="width: 67%">
       67% Boot Camp Progress
     </div>
   </div>
-</div>
 
 
-<div class="well">
-  <div class="row">
-    <div class="col-sm-4 text-justify">
-      <h3 class="text-center">It Just Works</h3>
-      <p>The language and process is simply amazing. This is what everyone's been waiting for.</p>
-      <p>Building in Ruby on Rails and getting deeper into full stack development has taken some getting used to, but the benefits of doing so outweigh the costs.</p>
-    </div>
-    <div class="col-sm-4 text-justify">
-      <h3 class="text-center">What We're Doing</h3>
-      <p>We're giving you a birdseye view of a Ruby on Rails subscription site build progression from start to finish.</p>
-      <p>We're taking instruction from Rob Dey of Coder Manual for entry into full stack development.</p>
-    </div>
-    <div class="col-sm-4 text-justify">
-      <h3 class="text-center">Forward March</h3>        
-      <p>We hope you enjoy the view as we progress through our Boot Camp provided by Coder Manual.</p>
-      <p><%= link_to "Contact Us", new_contact_path %> if you would like to chat about building, design, development, or anything Ruby on Rails related you see here.
+  <div class="well">
+    <div class="row">
+      <div class="col-sm-4 text-justify">
+        <h3 class="text-center">It Just Works</h3>
+        <p>The language and process is simply amazing. This is what everyone's been waiting for. 
+        Building in Ruby on Rails and getting deeper into full stack development has taken some getting used to, 
+        but the benefits of doing so outweigh the costs.</p>
+      </div>
+      <div class="col-sm-4 text-justify">
+        <h3 class="text-center">What We're Doing</h3>
+        <p>We're giving you a birdseye view of a cloud based Ruby on Rails build progression for a subscription web app. All from start to finish, 
+        while we take instruction from Rob Dey of Coder Manual for entry into full stack development.</p>
+      </div>
+      <div class="col-sm-4 text-justify">
+        <h3 class="text-center">Rails Preview</h3>        
+        <p>We hope you enjoy the view as we progress through our Boot Camp provided by Rob and the team over at Coder Manual. 
+        <%= link_to "Contact Us", new_contact_path %> if you would like to chat about building, design, development, or anything Ruby on Rails related you see here.
+      </div>
     </div>
   </div>
 </div>
-
